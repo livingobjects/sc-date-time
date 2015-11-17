@@ -40,8 +40,7 @@
     "stylus": "^0.49.3"
   },
   "scripts": {
-    "test": "grunt travis-test --verbose",
-    "postinstall": "node ./node_modules/bower/bin/bower install --allow-root"
+    "test": "grunt travis-test --verbose"
   },
   "repository": {
     "type": "git",
