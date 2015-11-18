@@ -227,7 +227,7 @@
                 classString += "md-primary md-bfg";
               }
               if (new Date(this._year, this._month, d).getTime() === new Date().setHours(0, 0, 0, 0)) {
-                classString += " today";
+                classString += " md-primary md-fg";
               }
               return classString;
             },
