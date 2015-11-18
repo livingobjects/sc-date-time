@@ -224,7 +224,7 @@
               var classString;
               classString = '';
               if ((scope.date != null) && new Date(this._year, this._month, d).getTime() === new Date(scope.date.getTime()).setHours(0, 0, 0, 0)) {
-                classString += "selected";
+                classString += "md-primary md-bfg";
               }
               if (new Date(this._year, this._month, d).getTime() === new Date().setHours(0, 0, 0, 0)) {
                 classString += " today";
